@@ -1,4 +1,5 @@
 # Adding Data Persistence Sprint Challenge
+//code grade
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
