@@ -1,6 +1,7 @@
 // build your `Task` model here
+const db = require("../../data/dbConfig")
 function getTasks() {
-  return Promise.resolve("good job got tasks")
+  return db("tasks")
 }
 
 module.exports = {

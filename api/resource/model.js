@@ -1,6 +1,8 @@
 // build your `Resource` model here
+const db = require("../../data/dbConfig")
+
 function getResources() {
-  return Promise.resolve("good job got resources")
+  return db("resources")
 }
 
 module.exports = {
