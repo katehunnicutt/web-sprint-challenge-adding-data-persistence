@@ -11,7 +11,11 @@ router.get("/", (req, res, next) => {
 })
 
 router.post("/", (req, res, next) => {
-
+  Resources.createResources(req.body)
+    .then(resource => {
+      res.status(201).json(resource)
+    })
+    .catch(next) 
 })
 
 
